@@ -4,7 +4,7 @@ def vacuum_world():
 
     loc = input("Enter Location of Vacuum: ")
     status = input("Enter status: ")
-    status_compliment = input("Enter status of other room: ")
+    otherstatus = input("Enter status of other room: ")
 
     if status == '1':
         print(f"Location {loc} is Dirty.")
@@ -12,7 +12,7 @@ def vacuum_world():
         cost += 1
         print(f"Cost for CLEANING {loc} " + str(cost))
 
-    if status_compliment == '1':
+    if otherstatus == '1':
         otherloc = 'B' if loc == 'A' else 'A'
         print(f"Location {otherloc} is Dirty.")
         cost += 1
