@@ -29,7 +29,7 @@ def vacuum_world():
                 print("Location B is Dirty.")
                 print("Moving right to the Location B. ")
                 cost += 1                       #cost for moving right
-                print("COST for moving RIGHT" + str(cost))
+                print("COST for moving RIGHT " + str(cost))
                 # suck the dirt and mark it as clean
                 goal_state['B'] = '0'
                 cost += 1                       #cost for suck
@@ -50,7 +50,7 @@ def vacuum_world():
                 # suck the dirt and mark it as clean
                 goal_state['B'] = '0'
                 cost += 1                       #cost for suck
-                print("Cost for SUCK" + str(cost))
+                print("Cost for SUCK " + str(cost))
                 print("Location B has been Cleaned. ")
             else:
                 print("No action " + str(cost))
@@ -74,7 +74,7 @@ def vacuum_world():
                 print("Location A is Dirty.")
                 print("Moving LEFT to the Location A. ")
                 cost += 1  # cost for moving right
-                print("COST for moving LEFT" + str(cost))
+                print("COST for moving LEFT " + str(cost))
                 # suck the dirt and mark it as clean
                 goal_state['A'] = '0'
                 cost += 1  # cost for suck
