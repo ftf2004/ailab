@@ -1,5 +1,5 @@
 def vacuum_world():
-    goal_state = {'A': '0', 'B': '0'}  # 0 indicates Clean, 1 indicates Dirty
+    goal_state = {'A': '0', 'B': '0'}
     cost = 0
 
     loc = input("Enter Location of Vacuum: ")
