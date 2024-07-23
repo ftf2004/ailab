@@ -8,10 +8,10 @@ def vacuum_world():
     goal_state = {'A': '0', 'B': '0'}
     cost = 0
 
-    location_input = input("Enter Location of Vacuum") #user_input of location vacuum is placed
+    location_input = input("Enter Location of Vacuum ") #user_input of location vacuum is placed
     status_input = input("Enter status of " + location_input) #user_input if location is dirty or clean
-    status_input_complement = input("Enter status of other room")
-    print("Initial Location Condition" + str(goal_state))
+    status_input_complement = input("Enter status of other room ")
+    print("Initial Location Condition " + str(goal_state))
 
     if location_input == 'A':
         # Location A is Dirty.
