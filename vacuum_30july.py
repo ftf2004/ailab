@@ -40,6 +40,6 @@ while x < 4:
     x+=1
     y=0
 pro= (100-((z/16)*100))
-print("Room is clean now, Thanks for using : 3710933")
+print("Room is clean now")
 display(room)
 print('performance=',pro,'%')
